@@ -1,2 +1,17 @@
-# D1_mini_IIC-_HUB
-IIC devices hub for demos D1 mini 
+# 项目介绍
+ 这是一个简单的D1 mini （esp8266）的扩展hub模块。
+## 功能介绍
+ - 集成了AHT20温湿度传感器
+ - BMP180 气压传感器
+ - AT24CXX系列EEPROM
+ - 端口引出了4组IIC接口
+ 
+## 注意事项
+ - IIC的已经做了上拉电阻还有电压是用3.3V的。
+ - gerber文件可以直接上嘉立创打板。
+ - 源文件用立创EDA画的。导出了一份Alitum格式，但是不确定OK不OK。
+
+## 版权信息
+ 这个项目开源个人用途的随便拿去用，商业用途（卖钱）的就请自觉来封邮件（sakunamary@gmail.com）说一下拿去生产卖钱的。
+ 
+ 我免费授权，产品上留个我的logo就行。
